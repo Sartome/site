@@ -1,0 +1,290 @@
+main {
+    margin:0 auto;
+    padding:3rem 1rem
+    }
+    
+    body {
+    background-color:#1E2D52;
+    border:100px solid #1E2D52
+    }
+    
+    h1 {
+    text-align:left;
+    font: size 30px;
+    font-family:Arial;
+    color:#ffffff
+    }
+    
+    h2 {
+    color:#fff;
+    margin:10px;
+    font-size:40px
+    }
+    
+    h3 {
+    text-align:center;
+    color:#fff;
+    text-decoration:none
+    }
+    
+    ul {
+    font-family:cambria;
+    font-size:30px;
+    color:#1e7aee;
+    font-weight:700
+    }
+    
+    li {
+    font-family:cambria;
+    font-size:40px;
+    color:#1e7aee
+    }
+    
+    p {
+    font-family:bahnshrift;
+    font-size:30px;
+    color:#fff
+    }
+    
+    hr {
+    background-color:#16AAD9;
+    border-color:#16AAD9;
+    border-radius:10px;
+    height:3px
+    }
+    
+    a {
+    text-decoration:none;
+    color:red;
+    }
+    
+    a:hover {
+        color: red;
+    }
+
+    table {
+    margin:0 auto;
+    text-align:center;
+    color:#fff;
+    border-color:#fff;
+    font-size:20px;
+    border-radius:5px
+    }
+    
+    th,td {
+    border:1px solid #000;
+    padding:8px;
+    text-align:left
+    }
+    
+    th {
+    background-color:#16AAD9
+    }
+    
+    video {
+    display:block;
+    margin:0 auto;
+    border:5px solid;
+    border-color:#16AAD9;
+    border-radius:20px
+    }
+    
+    input,select,textarea {
+    display:block;
+    color:#1e7aee;
+    width:300px;
+    padding:5px;
+    border-radius:10px;
+    border:1px solid #ccc
+    }
+    
+    button {
+    display:block;
+    color:#1e7aee;
+    border-radius:20px;
+    height:75px;
+    margin:0 auto;
+    padding:1em;
+    border-color:#1e7aee;
+    background-color:#16AAD9;
+    cursor:pointer
+    }
+    
+    button.clicked {
+    background-color:#1e7aee
+    }
+    
+    label {
+    font-size:inherit;
+    font-family:Arial;
+    color:#fff;
+    display:inline-block
+    }
+    
+    section {
+    display:flex;
+    flex-wrap:wrap
+    }
+    
+    form {
+    width:400px;
+    padding:1em;
+    border:1px solid #fff;
+    background-color:#1e7aee;
+    border-radius:1em
+    }
+    
+    footer {
+    text-align:left;
+    font-size:18px;
+    color:#054D5F
+    }
+    
+    #mon-paragraphe {
+    text-align:center
+    }
+    
+    #imgcentre {
+    display:block;
+    margin:0 auto;
+    width:300px;
+    height:280px
+    }
+    
+    #fleches {
+    display:block;
+    height:100px;
+    width:100px;
+    width:50px;
+    height:50px;
+    transition:transform .5s ease
+    }
+    
+    #fleches:hover {
+    transform:rotate(360deg)
+    }
+    
+    #icones {
+    width:200px;
+    height:170px;
+    border:2px solid;
+    border-color:#1e7aee;
+    border-radius:20px
+    }
+    
+    #video {
+    max-width:100%;
+    max-height:100%
+    }
+    
+    #container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh
+    }
+    
+    #cadre {
+    border:5px solid;
+    color:#16AAD9;
+    border-radius:10px
+    }
+    
+    #Bouton-suite {
+    text-align:right;
+    color:#1e7aee
+    }
+    
+    .container {
+    width:100%;
+    overflow:auto
+    }
+    
+    #form_button {
+    width:400px;
+    height:50px;
+    background-color:#fff
+    }
+    
+    .bouton {
+    background-color:#16AAD9;
+    border:none;
+    border-radius:20px;
+    color:#fff;
+    padding:10px 20px;
+    text-align:left;
+    display:inline-block;
+    font-size:16px;
+    cursor:pointer;
+    display:block;
+    margin:auto
+    }
+    
+    .home-link {
+    display:block;
+    position:fixed;
+    top:10px;
+    right:10px;
+    z-index:100;
+    transition:transform .5s ease
+    }
+    
+    .home-link:hover {
+    transform:scale(1.5,1.5) translate(-20px,20%)
+    }
+    
+    input[type="file"] {
+    border-radius:10px;
+    padding:10px;
+    border:2px solid #ccc;
+    background-color:#fff;
+    font-size:16px;
+    font-weight:700;
+    color:#555;
+    cursor:pointer
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color:#1E2D52
+    }
+    
+    ::-webkit-scrollbar {
+    width:10px
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background-color:#16AAD9;
+    border-radius:10px
+    }
+    
+    table {
+    width:100%;
+    border:2px
+    }
+    
+    th,td {
+    padding:15px
+    }
+    
+    td img {
+    width:100px;
+    height:auto
+    }
+    
+    .header {
+    text-align:center;
+    background-color:#36c;
+    color:#fff;
+    font-size:18px;
+    padding:10px
+    }
+    
+    .button-container {
+    text-align:center;
+    margin-top:20px
+    }
+    
+    .header {
+    background:#3486c9;
+    color:#16AAD9
+    }
